@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rehwalds Nähstüble - Dein Online-Shop für Stoffe und Nähzubehör</title>
+	<style>
+		@keyframes blink {
+			0% {
+				background-color: #fff;
+			}
+			50% {
+				background-color: #ff0;
+			}
+			100% {
+				background-color: #fff;
+			}
+		}
+
+		button:hover {
+			animation: blink 1s infinite;
+		}
+
+		body {
+			background-image: url('nadeln.jpg');
+			background-repeat: repeat;
+			background-size: auto;
+			background-position: center center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Rehwalds Nähstüble</h1>
+		<nav>
+			<ul>
+				<li><a href="#start">Startseite</a></li>
+				<li><a href="#produkte">Produkte</a></li>
+				<li><a href="#kontakt">Kontakt</a></li>
+				<li><button>Online Shop</button></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="start">
+			<h2>Willkommen im Rehwalds Nähstüble</h2>
+			<p>Wir bieten eine große Auswahl an hochwertigen Stoffen und Nähzubehör.</p>
+		</section>
+
+		<section id="produkte">
+			<h2>Unsere Produkte</h2>
+			<ul>
+				<li>Stoffe aus Baumwolle, Leinen, Wolle und mehr</li>
+				<li>Nähgarne und Nadeln</li>
+				<li>Schneidewerkzeuge und Scheren</li>
+				<li>Knöpfe, Reißverschlüsse und Verschlüsse</li>
+			</ul>
+		</section>
+
+		<section id="kontakt">
+			<h2>Kontakt</h2>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">E-Mail:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="message">Nachricht:</label><br>
+				<textarea id="message" name="message"></textarea><br><br>
+				<input type="submit" value="Abschicken">
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2021 Rehwalds Nähstüble. Alle Rechte vorbehalten.</p>
+	</footer>
+</body>
+</html>
